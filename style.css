@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+background-color: #FDFDFD;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  padding: 5%;
+  margin-left: auto;
+  margine-right: auto;
+  max-width: 800px;
+}
+
+h1{
+  background: -webkit-linear-gradient(0deg, #008AFF, #1EB8DE, #00FCFE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-size: 40px;
+  padding-left: 3%;
+}
+
+br {
+  margin-top: 4px;
+  
+  
+}
+
+p {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+padding-left: 3%;
+}
+
+a {
+  color: #008AFF;
+}
+
+.email {
+  color: #008AFF;
+}
+
+h6 {
+  font-size: 10px;
+  text-align: center;
+}
+
+.tiktok {
+  color: #AAAAAA;
+  text-decorations: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #1C1C1E;
+      color: #AAAAAA;
+  }
+
+  #transaction {
+      background-color: #191919;
+      box-shadow: none;
+  }
+  p {
+      color: #AAAAAA;
+  }
+  h3{
+    color:white;
+  }
+  .sub, .sub2{
+    color:white;
+  }
+  
+.footer {
+color: #AAAAAA;
+}
